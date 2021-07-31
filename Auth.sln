@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuth", "JWTAuth\JWTAuth.csproj", "{EB327572-4346-4DE0-88B3-17C98ED31525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuth", "JWTAuth\JWTAuth.csproj", "{EB327572-4346-4DE0-88B3-17C98ED31525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomJwt", "CustomJwt\CustomJwt.csproj", "{340DB2F3-9A5E-46FE-9F24-C31F5BA726AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTCustom", "JWTCustom\JWTCustom.csproj", "{3721CB49-FF2F-49ED-BB19-CB130ED6A9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuth", "GoogleAuth\GoogleAuth.csproj", "{0F99C118-A638-4183-95B2-65C30C03A19B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{EB327572-4346-4DE0-88B3-17C98ED31525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB327572-4346-4DE0-88B3-17C98ED31525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB327572-4346-4DE0-88B3-17C98ED31525}.Release|Any CPU.Build.0 = Release|Any CPU
-		{340DB2F3-9A5E-46FE-9F24-C31F5BA726AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{340DB2F3-9A5E-46FE-9F24-C31F5BA726AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{340DB2F3-9A5E-46FE-9F24-C31F5BA726AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{340DB2F3-9A5E-46FE-9F24-C31F5BA726AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3721CB49-FF2F-49ED-BB19-CB130ED6A9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3721CB49-FF2F-49ED-BB19-CB130ED6A9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3721CB49-FF2F-49ED-BB19-CB130ED6A9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3721CB49-FF2F-49ED-BB19-CB130ED6A9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F99C118-A638-4183-95B2-65C30C03A19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F99C118-A638-4183-95B2-65C30C03A19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F99C118-A638-4183-95B2-65C30C03A19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F99C118-A638-4183-95B2-65C30C03A19B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
